@@ -130,7 +130,7 @@ p {
 
 @keyframes slide {
     from {
-        left: -1000px;
+        left: -1200px;
     }
     to {
         left: -120px;
@@ -142,6 +142,6 @@ p {
         left: -120px;
     }
     to {
-        left: -1000px;
+        left: -1200px;
     }
 }
