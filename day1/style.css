@@ -23,6 +23,8 @@ p {
 }
 .container-fluid {
     margin-left: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-item {
@@ -36,9 +38,7 @@ p {
     padding-left: 0;
     padding-right: 0;
 }
-.join-button {
-    padding: 10px;
-}
+
 
 #navbarNav {
 
