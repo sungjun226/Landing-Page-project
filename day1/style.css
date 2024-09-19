@@ -17,6 +17,14 @@ p {
     border-bottom: 0.1px solid #d8d8d8;
 }
 
+.navbar-brand img {
+    height: 50px;
+    width: 60px;
+}
+.container-fluid {
+    margin-left: 20px;
+}
+
 .nav-item {
     font-weight: 600;
 }
