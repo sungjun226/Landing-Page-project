@@ -131,17 +131,21 @@ p {
 @keyframes slide {
     from {
         left: -1200px;
+        opacity: 0;
     }
     to {
         left: -120px;
+        opacity: 1;
     }
 }
 
 @keyframes slideback {
     from {
         left: -120px;
+        opacity: 1;
     }
     to {
         left: -1200px;
+        opacity: 0;
     }
 }
