@@ -1,0 +1,275 @@
+
+
+body {
+    background: url('https://cdn.discordapp.com/assets/homepage/background-art__2__720.png');
+    background-size: cover;
+
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.navbar-nav {
+    font-size: 22px;
+    
+}
+
+
+.navbar-toggler-icon {
+    color: var(--color-white)
+}
+
+
+@media (min-width:992px) {
+    .navbar-nav {
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        transform: translateX(-50px);
+    }
+
+    .login {
+        display: flex;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
+}
+.navbar button {
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-desc-container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-top: 70px;
+
+}
+
+.main-desc {
+    display: flex;
+    align-items: center;
+}
+
+.main-desc img {
+    width: 600px;
+    height: 400px;
+}
+
+.phar {
+    display: flex;
+    flex-direction: column;
+    transform: translateX(30px);
+}
+
+.phar h1 {
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 900;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    line-height: 120%;
+    max-width: 370px;
+}
+
+.phar span {
+    color: white;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    max-width: 370px;   
+}
+
+.download-buttons {
+    display: flex;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.download-buttons button {
+    width: 290px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.download-buttons button:nth-child(2){
+    background-color: rgb(2, 2, 196);
+    color: white;
+}
+
+@media (max-width:1070px) {
+    .main-desc {
+        flex-direction: column;
+    }
+
+    .main-desc img {
+        margin-top: 50px;
+    }
+}
+
+.main-card-container {
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 540px;
+    
+}
+
+.main-card {
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-height: 484px;
+    max-width: 1100px;
+    border: 1px solid #999;
+    padding: 15px;
+    padding-left: 0;
+    padding-right: 0;
+    background-image: linear-gradient(135deg, #fff6, #ffffff12);
+    border-radius: 20px;
+}
+
+video {
+    border-radius: 50px;
+    width: 50%;
+    height: 400px;
+    max-height: 70%;
+    /* overflow: hidden; */
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+
+
+.main-card .main-card-phar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+    width: 34%;
+}
+
+.main-card .main-card-phar h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Abcgintonord 800",sans-serif;
+    font-size: clamp(1.7rem,2.5vw,2rem);
+    line-height: 40px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    margin-bottom: 20px;
+
+}
+
+.main-card .main-card-phar span {
+    color: white;
+    width: 90%;
+    height: 50%;
+    font-size: clamp(1rem,1.7vw,1.2rem);
+    
+}
+
+.last-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.last-desc span {
+    color: white;
+    font-size: clamp(1.2rem,4vw,5rem);
+    font-weight: 900;
+    text-align: center;
+    width: 70vw;
+}
+
+.last-desc button {
+    width: 250px;
+    height: 50px;
+    margin-top: 60px;
+    background-color: rgb(31, 31, 248);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+}
+
+.last-pic {
+    margin-top: 90px;
+    margin-bottom: 30px;
+    width: 70vw;
+
+}
+
+
+
+@media (max-width:816px) {
+    .main-card {
+        flex-direction:column-reverse;
+        height: 700px;
+        max-height: none;
+        
+    }
+
+    .main-card:nth-child(2) {
+        flex-direction: column;
+    }
+
+    .main-card .main-card-phar {
+        width: 90%;
+    }
+
+    .main-card .main-card-phar h1 {
+        width:90%;
+
+    }
+
+    .main-card .main-card-phar span {
+        width:90%;
+    }
+    
+    .main-card video {
+        width: 90%;
+        margin-top: 30px;
+        overflow:visible;
+        max-height: none;
+    }
+
+    .main-card .main-card-phar {
+        align-items: center;
+    }
+}
