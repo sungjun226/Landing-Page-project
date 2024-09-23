@@ -149,7 +149,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 90%;
-    max-height: 484px;
+    max-height: 512px;
     max-width: 1100px;
     border: 1px solid #999;
     padding: 15px;
@@ -164,9 +164,10 @@ video {
     width: 50%;
     height: 400px;
     max-height: 70%;
-    /* overflow: hidden; */
+    
     margin: 5px;
     box-sizing: border-box;
+    object-fit: cover;
 }
 
 
@@ -242,6 +243,8 @@ video {
         flex-direction:column-reverse;
         height: 700px;
         max-height: none;
+        align-items: center;
+        justify-content: center;
         
     }
 
@@ -251,6 +254,7 @@ video {
 
     .main-card .main-card-phar {
         width: 90%;
+        margin: 0;
     }
 
     .main-card .main-card-phar h1 {
@@ -265,11 +269,12 @@ video {
     .main-card video {
         width: 90%;
         margin-top: 30px;
-        overflow:visible;
         max-height: none;
+        object-fit: cover;
     }
 
     .main-card .main-card-phar {
         align-items: center;
     }
 }
+
