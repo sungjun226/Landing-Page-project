@@ -106,6 +106,7 @@ main {
     display: flex;
     margin-top: 80px;
     padding: 20px;
+    gap: 35px;
 }
 
 .download-buttons button {
