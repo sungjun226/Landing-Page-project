@@ -163,6 +163,10 @@ h1,h2,h3,h4,h5,h6,span,p {
     
 }
 
+
+/* left 같은 레이아웃 속성은 성능 저하가 발생할수있으므로
+transform : translateX 를 사용할것! */
+
 @keyframes slide1 {
     from {
         left: -1000px;
@@ -201,7 +205,7 @@ h1,h2,h3,h4,h5,h6,span,p {
     }
 
     to {
-        right: -1600px;
+        right: -1800px;
     }
 }
 

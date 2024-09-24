@@ -1,5 +1,6 @@
 const languageSelctor = document.querySelector('.language');
 
+// hover로 해도 됐을듯 ㅎㅎ..
 languageSelctor.addEventListener('mouseover', () => {
     const languageButton = document.querySelector('.select-language');
     languageButton.style.color = '#6fb39c';
